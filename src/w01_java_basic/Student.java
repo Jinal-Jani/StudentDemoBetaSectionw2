@@ -1,8 +1,4 @@
-/*
- *  Jinal Jani
- *  Student ID: 991525516
- *  SYST10199 - Web Programming
- */
+
 package w01_java_basic;
 
 /**
@@ -12,6 +8,7 @@ package w01_java_basic;
 public class Student
 {
     private String name;
+    private int Id;
 
     /**
      * @return the name
@@ -25,5 +22,19 @@ public class Student
      */
     public void setName(String n) {
         name = n;
+    }
+
+    /**
+     * @return the Id
+     */
+    public int getId() {
+        return Id;
+    }
+
+    /**
+     * @param Id the Id to set
+     */
+    public void setId(int Id) {
+        this.Id = Id;
     }
 }
