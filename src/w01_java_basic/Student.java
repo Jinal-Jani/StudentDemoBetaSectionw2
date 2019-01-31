@@ -9,6 +9,22 @@ public class Student
 {
     private String name;
     private int Id;
+    private int MaxCourse;
+
+    /**
+     * @return the MaxCourse
+     */
+    public int getMaxCourse() {
+        return MaxCourse;
+    }
+
+    /**
+     * @param MaxCourse the MaxCourse to set
+     */
+    public void setMaxCourse(int MaxCourse) {
+        this.MaxCourse = MaxCourse;
+    }
+    
 
     /**
      * @return the name
