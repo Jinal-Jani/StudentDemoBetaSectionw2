@@ -13,21 +13,24 @@ public class Student
     /**
      * @return the name
      */
-    public String getName() {
+    public String getName() 
+    {
         return name;
     }
 
     /**
      * @param name the name to set
      */
-    public void setName(String n) {
+    public void setName(String n) 
+    {
         name = n;
     }
 
     /**
      * @return the Id
      */
-    public int getId() {
+    public int getId() 
+    {
         return Id;
     }
 
